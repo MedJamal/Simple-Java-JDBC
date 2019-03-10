@@ -8,7 +8,7 @@ public class DbConnect {
     private String url = "jdbc:mysql://localhost:3306/javatest";    
     private String driverName = "com.mysql.jdbc.Driver";
     private String username = "root";   
-    private String password = "129430jamal";
+    private String password = "";
     private Connection conn;
 
     public Connection getConnection() {
